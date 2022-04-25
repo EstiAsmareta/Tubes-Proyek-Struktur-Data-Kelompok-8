@@ -55,6 +55,10 @@ public class MenuDashboard extends javax.swing.JFrame {
             model.setValueAt(txtNama.getText(), jTable1.getSelectedRow(), 0);
             model.setValueAt(txtNIK.getText(), jTable1.getSelectedRow(), 1);
             model.setValueAt(txtTTL.getText(), jTable1.getSelectedRow(), 2);
+            model.setValueAT(txtAlamat.getText(), jTable1.getSelectedRow(), 3);
+            model.setValueAT(comJenisKelamin.getSelectedItem(), jTable1.getSelectedRow(), 4);
+            model.setValueAT(txtEmail.getText(), jTable1.getSelectedRow(), 5);
+            model.setValueAT(txtNomorPendaftaran.getText(), jTable1.getSelectedRow(), 6);
         }
     }
     
